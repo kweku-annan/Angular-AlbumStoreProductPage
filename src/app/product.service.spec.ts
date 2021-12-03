@@ -1,6 +1,8 @@
 import { TestBed, inject } from '@angular/core/testing';
 
 import { ProductService } from './product.service';
+import { Album } from './album';
+import { Observable } from 'rxjs/Observable';
 
 describe('ProductService', () => {
   beforeEach(() => {
